@@ -16,11 +16,6 @@
             <identifier>org.jbpm.casemgmt.impl.marshalling.CaseMarshallerFactory.builder().withDoc().get();</identifier>
             <parameters/>
         </marshalling-strategy>
-        <marshalling-strategy>
-            <resolver>mvel</resolver>
-            <identifier>new org.jbpm.document.marshalling.DocumentMarshallingStrategy();</identifier>
-            <parameters/>
-        </marshalling-strategy>
     </marshalling-strategies>
     <event-listeners/>
     <task-event-listeners/>
